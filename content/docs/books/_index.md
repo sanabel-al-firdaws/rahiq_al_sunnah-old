@@ -2,9 +2,8 @@
 weight: 1
 bookFlatSection: true
 title: "الفهرس"
-bookCollapseSection: true
 ---
 
-# [كتاب الصلاة](/docs/books/كتاب-الصلاة/)
+# [كتاب الصلاة](/docs/كتاب-الصلاة/)
 
-# [كتاب الطهارة](/docs/books/كتاب-الطهارة)
+# [كتاب الطهارة](/docs/كتاب-الطهارة)
