@@ -1,9 +1,9 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "الفهرس"
+title: "الصفحة الرئيسية"
 ---
 
-# [كتاب الصلاة](_/كتاب-الصلاة)
+# [سنابل الفردوس](/posts)
 
-# [كتاب الطهارة](_/كتاب-الطهارة)
+# [رحيق السنة](/_/kitab-al-salah/bab-al-salawat-al-khams/)

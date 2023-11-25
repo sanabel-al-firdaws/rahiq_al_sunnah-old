@@ -4,6 +4,6 @@ bookFlatSection: true
 title: "الفهرس"
 ---
 
-# [كتاب الصلاة](/books/كتاب-الصلاة/)
+# [كتاب الصلاة](_/kitab-al-salah)
 
-# [كتاب الطهارة](/books/كتاب-الطهارة/)
+# [كتاب الطهارة](_/kitab-al-tahara)
