@@ -11,11 +11,13 @@
   </url><url>
     <loc>https://example.org/_/</loc>
   </url><url>
+    <loc>https://example.org/_/al-fahras-page/</loc>
+  </url><url>
     <loc>https://example.org/docs/books/</loc>
   </url><url>
     <loc>https://example.org/docs/example/table-of-contents/without-toc/</loc>
   </url><url>
-    <loc>https://example.org/posts/creating-a-new-theme/</loc>
+    <loc>https://example.org/posts/%D8%B5%D9%81%D8%A9-%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D9%83%D8%B3%D9%88%D9%81/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/posts/migrate-from-jekyll/</loc>
@@ -102,14 +104,26 @@
   </url><url>
     <loc>https://example.org/_/kitab-al-tahara/bab-al-wodo/hadith1/</loc>
   </url><url>
-    <loc>https://example.org/_/kitab-al-salah/bab-salat-al-doha/hadith3/</loc>
-  </url><url>
-    <loc>https://example.org/_/kitab-al-salah/bab-salat-al-doha/hadith2/</loc>
+    <loc>https://example.org/_/kitab-al-salah/bab-al-salawat-al-khams/</loc>
   </url><url>
     <loc>https://example.org/_/kitab-al-tahara/bab-al-wodo/</loc>
   </url><url>
     <loc>https://example.org/_/kitab-al-salah/bab-salat-al-doha/</loc>
   </url><url>
-    <loc>https://example.org/_/kitab-al-salah/bab-salat-al-doha/hadith1/</loc>
+    <loc>https://example.org/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-dohor/</loc>
+  </url><url>
+    <loc>https://example.org/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-aisha/</loc>
+  </url><url>
+    <loc>https://example.org/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-asr/</loc>
+  </url><url>
+    <loc>https://example.org/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-fajr/</loc>
+  </url><url>
+    <loc>https://example.org/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-magrib/</loc>
+  </url><url>
+    <loc>https://example.org/_/kitab-al-salah/bab-salat-al-doha/adad-rakat-salat-al-doha/</loc>
+  </url><url>
+    <loc>https://example.org/_/kitab-al-salah/bab-salat-al-doha/fadlo-salat-al-doha/</loc>
+  </url><url>
+    <loc>https://example.org/_/kitab-al-salah/bab-salat-al-doha/waqt-salat-al-doha/</loc>
   </url>
 </urlset>

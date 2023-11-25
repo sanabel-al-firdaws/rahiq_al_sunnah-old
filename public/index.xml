@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>الفهرس on رحيق السنة</title>
+    <title>الصفحة الرئيسية on رحيق السنة</title>
     <link>https://example.org/</link>
-    <description>Recent content in الفهرس on رحيق السنة</description>
+    <description>Recent content in الصفحة الرئيسية on رحيق السنة</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ar-sa</language>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
@@ -25,12 +25,11 @@ Te at cruciabere vides rubentis manebo Maturuit in praetemptat ruborem ignara po
 Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt dixit: ritu pharetramque.</description>
     </item>
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://example.org/posts/creating-a-new-theme/</link>
+      <title>صفة صلاة الكسوف</title>
+      <link>https://example.org/posts/%D8%B5%D9%81%D8%A9-%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D9%83%D8%B3%D9%88%D9%81/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>https://example.org/posts/creating-a-new-theme/</guid>
-      <description>Introduction#This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://example.org/posts/%D8%B5%D9%81%D8%A9-%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D9%83%D8%B3%D9%88%D9%81/</guid>
+      <description>هنا نكتب اشياء</description>
     </item>
     <item>
       <title>Migrate to Hugo from Jekyll</title>
