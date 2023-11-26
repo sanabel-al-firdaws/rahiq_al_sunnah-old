@@ -9,8 +9,6 @@
   </url><url>
     <loc>https://example.org/docs/example/table-of-contents/with-toc/</loc>
   </url><url>
-    <loc>https://example.org/_/</loc>
-  </url><url>
     <loc>https://example.org/_/al-fahras-page/</loc>
   </url><url>
     <loc>https://example.org/docs/books/</loc>
@@ -70,6 +68,8 @@
     <loc>https://example.org/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.org/_/</loc>
+  </url><url>
     <loc>https://example.org/docs/example/collapsed/3rd-level/4th-level/</loc>
   </url><url>
     <loc>https://example.org/docs/example/collapsed/3rd-level/</loc>
@@ -83,8 +83,6 @@
     <loc>https://example.org/docs/shortcodes/columns/</loc>
   </url><url>
     <loc>https://example.org/docs/shortcodes/details/</loc>
-  </url><url>
-    <loc>https://example.org/docs/shortcodes/expand/</loc>
   </url><url>
     <loc>https://example.org/docs/shortcodes/hints/</loc>
   </url><url>
@@ -109,6 +107,8 @@
     <loc>https://example.org/_/kitab-al-tahara/bab-al-wodo/</loc>
   </url><url>
     <loc>https://example.org/_/kitab-al-salah/bab-salat-al-doha/</loc>
+  </url><url>
+    <loc>https://example.org/_/tadrib/</loc>
   </url><url>
     <loc>https://example.org/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-dohor/</loc>
   </url><url>

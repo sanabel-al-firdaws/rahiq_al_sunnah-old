@@ -8,9 +8,9 @@ title: صلاة العصر
 
 {{< rawhtml >}}
 
-<sl-button>click me</sl-button>
+<sl-button>هذا زر</sl-button>
 
-<audio controls src="/audio/Audio1.opus" type="audio/opus">
+<audio controls src="\audio\Kitab Al Salah\Bab Al Salawat Al Khams\Salat Al Asr\bab-salat-al-asr.m4a" type="audio/m4a">
 
 </audio>
 
