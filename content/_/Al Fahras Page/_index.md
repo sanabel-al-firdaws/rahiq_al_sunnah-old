@@ -4,6 +4,7 @@ bookFlatSection: true
 title: "الفهرس"
 ---
 
-# [باب الصلوات الخمس](/_/kitab-al-salah/bab-al-salawat-al-khams)
+[باب الصلوات الخمس](_/_index.md)
+[باب الصلوات الخمس](/_index.md)
 
-# [كتاب الطهارة](/_/kitab-al-tahara)
+<!-- [كتاب الطهارة](/_/kitab-al-tahara) -->

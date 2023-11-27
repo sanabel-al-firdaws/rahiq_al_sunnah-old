@@ -29,6 +29,8 @@
   </url><url>
     <loc>https://example.org/_/kitab-al-tahara/</loc>
   </url><url>
+    <loc>https://example.org/_/kitab1/</loc>
+  </url><url>
     <loc>https://example.org/posts/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -102,13 +104,15 @@
   </url><url>
     <loc>https://example.org/_/kitab-al-tahara/bab-al-wodo/hadith1/</loc>
   </url><url>
+    <loc>https://example.org/_/kitab1/bab1/hadith1/</loc>
+  </url><url>
     <loc>https://example.org/_/kitab-al-salah/bab-al-salawat-al-khams/</loc>
   </url><url>
     <loc>https://example.org/_/kitab-al-tahara/bab-al-wodo/</loc>
   </url><url>
     <loc>https://example.org/_/kitab-al-salah/bab-salat-al-doha/</loc>
   </url><url>
-    <loc>https://example.org/_/tadrib/</loc>
+    <loc>https://example.org/_/kitab1/bab1/</loc>
   </url><url>
     <loc>https://example.org/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-dohor/</loc>
   </url><url>
