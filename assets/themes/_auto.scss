@@ -1,9 +1,9 @@
-:root {
+[data-theme="dark"] {
+  @include theme-dark;
+}
+[data-theme="light"] {
   @include theme-light;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    @include theme-dark;
-  }
+[data-theme="green"] {
+  @include theme-green;
 }

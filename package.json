@@ -1,0 +1,22 @@
+{
+  "name": "rahiq_al_sunnah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hugo-dev": "npm run watch-tw & hugo server --disableFastRender",
+    "hugo-build": "npm run build-tw && hugo",
+    "build-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/style.css",
+    "watch-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/style.css -w --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "daisyui": "^4.4.17",
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "theme-change": "^2.5.0"
+  }
+}
