@@ -12,6 +12,7 @@ theme ='hugo-book'
   BookToC = true
   BookSection =  '_'
   BookPortableLinks =true
+  BookServiceWorker = true
 
 [markup]
   [markup.tableOfContents]
