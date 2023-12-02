@@ -33,7 +33,7 @@ $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
 
 .markdown {
 font-size:var(--custom-font-zoom);
-width: 100%;
+
 }
 
 $hint-colors: (

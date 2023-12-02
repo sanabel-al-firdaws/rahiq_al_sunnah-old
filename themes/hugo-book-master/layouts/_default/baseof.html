@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="sl-theme-dark" lang="{{ default .Site.Language.Lang .Site.LanguageCode  }}" dir="{{ default "rtl" .Site.Language.LanguageDirection }}">
+<head>
+  {{ partial "docs/html-head" . }}
+  {{ partial "docs/inject/head" . }}
+  
+<script async crossorigin="anonymous">
+var selectedTheme = localStorage.getItem("theme");
+if(selectedTheme) {
+    document.documentElement.setAttribute("data-theme", selectedTheme);
+}
+var body_background = localStorage.getItem("body-background");
+if(body_background) {
+    document.documentElement.style.setProperty("--custom-body-background", body_background);
+}
+var font_color = localStorage.getItem("font-color");
+if(font_color) {
+    document.documentElement.style.setProperty("--custom-font-color", font_color);
+}
+var font_zoom = localStorage.getItem("font-zoom");
+if(font_zoom) {
+    document.documentElement.style.setProperty("--custom-font-zoom", font_zoom);
+}
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/cdn/themes/dark.css"/>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/cdn/shoelace-autoloader.js"></script>
+</head>
+<body dir="{{ default "rtl" .Site.Language.LanguageDirection }}">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        {{ template "menu" . }} <!-- Left menu Content -->
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        {{ template "header" . }} <!-- Mobile layout header -->
+      </header>
+
+      {{ partial "docs/inject/content-before" . }}
+      {{ template "main" . }} <!-- Page Content -->
+      {{ partial "docs/inject/content-after" . }}
+
+      <footer class="book-footer">
+        {{ template "footer" . }} <!-- Footer under page content -->
+        {{ partial "docs/inject/footer" . }}
+      </footer>
+
+      {{ template "comments" . }} <!-- Comments block -->
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        {{ template "toc" . }} <!-- Table of Contents -->
+      </div>
+    </aside>
+    {{ end }}
+  </main>
+
+  {{ partial "docs/inject/body" . }}
+</body>
+</html>
+
+{{ define "menu" }}
+  {{ partial "docs/menu" . }}
+{{ end }}
+
+{{ define "header" }}
+  {{ partial "docs/header" . }}
+
+  {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+  <aside class="hidden clearfix">
+    {{ template "toc" . }}
+  </aside>
+  {{ end }}
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "docs/footer" . }}
+{{ end }}
+
+{{ define "comments" }}
+  {{ if and .Content (default true (default .Site.Params.BookComments .Params.BookComments)) }}
+  <div class="book-comments">
+    {{- partial "docs/comments" . -}}
+  </div>
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+  <article class="markdown">
+    {{- .Content -}}
+  </article>
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/toc" . }}
+{{ end }}

@@ -2,7 +2,7 @@ baseURL = '/'
 languageCode = 'ar-sa'
 title = 'رحيق السنة'
 
-theme ='hugo-book'
+theme ='hugo-book-master'
 
 
 [params]
@@ -15,7 +15,10 @@ theme ='hugo-book'
   BookServiceWorker = true
 
 [markup]
+
   [markup.tableOfContents]
     endLevel = 6
     ordered = false
     startLevel = 1
+  [markup.goldmark.renderer]
+    unsafe= true
