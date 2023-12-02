@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar-sa" dir="rtl">
+<html lang="ar-sa" class="sl-theme-dark" data-theme="dark" dir="rtl">
   
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,15 +12,15 @@
 <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script><meta property="og:title" content="عدد ركعات صلاة الضحى" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://example.org/_/kitab-al-salah/bab-salat-al-doha/adad-rakat-salat-al-doha/" />
+<meta property="og:url" content="/_/kitab-al-salah/bab-salat-al-doha/adad-rakat-salat-al-doha/" />
 
 <title>عدد ركعات صلاة الضحى | رحيق السنة</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
-<link rel="stylesheet" href="/book.min.4aa822303552993c503f0f3ad10163c8d73a069e5104a0eb218635d2ec49aa41.css" integrity="sha256-SqgiMDVSmTxQPw860QFjyNc6Bp5RBKDrIYY10uxJqkE=" crossorigin="anonymous">
+<link rel="stylesheet" href="/book.min.3c3236d10877e1fe22e410dbdcc10a94aeb0a9ca2b9736f7aef90624c055b56b.css" >
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.b03f54353a79aa6be0fd64340c01d9a736d1dd0798e28a9cacdad7396985138d.js" integrity="sha256-sD9UNTp5qmvg/WQ0DAHZpzbR3QeY4oqcrNrXOWmFE40=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="https://example.org/_/kitab-al-salah/bab-salat-al-doha/adad-rakat-salat-al-doha/index.xml" title="رحيق السنة" />
+  <script defer src="/en.search.min.cf0eb583cc2e2743d5a018479cf504db291844845ddbd2ce9cbcb397773408e8.js" ></script>
+<link rel="alternate" type="application/rss+xml" href="/_/kitab-al-salah/bab-salat-al-doha/adad-rakat-salat-al-doha/index.xml" title="رحيق السنة" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -37,7 +37,22 @@ var selectedTheme = localStorage.getItem("theme");
 if(selectedTheme) {
     document.documentElement.setAttribute("data-theme", selectedTheme);
 }
+var body_background = localStorage.getItem("body-background");
+if(body_background) {
+    document.documentElement.style.setProperty("--custom-body-background", body_background);
+}
+var font_color = localStorage.getItem("font-color");
+if(font_color) {
+    document.documentElement.style.setProperty("--custom-font-color", font_color);
+}
+var font_zoom = localStorage.getItem("font-zoom");
+if(font_zoom) {
+    document.documentElement.style.setProperty("--custom-font-zoom", font_zoom);
+}
 </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/cdn/themes/dark.css"/>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/cdn/shoelace-autoloader.js"></script>
 <body dir="rtl">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />

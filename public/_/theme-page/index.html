@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar-sa" dir="rtl">
+<html lang="ar-sa" class="sl-theme-dark" data-theme="dark" dir="rtl">
   
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="تغيير المظهر#lightdarkgreen">
+<meta name="description" content="تغيير المظهر#Link text Here defaultdarklightgreencustom--gray-100--gray-200--gray-500--color-link--color-visited-link--body-background--body-font-color--hint-color-warning--hint-color-info--hint-color-dangerfont sizexx-smallx-smallsmallmediumlargex-largexx-largexxx-largeapply ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark">
@@ -11,15 +11,15 @@
 <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script><meta property="og:title" content="تغيير المظهر" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://example.org/_/theme-page/" />
+<meta property="og:url" content="/_/theme-page/" />
 
 <title>تغيير المظهر | رحيق السنة</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
-<link rel="stylesheet" href="/book.min.4aa822303552993c503f0f3ad10163c8d73a069e5104a0eb218635d2ec49aa41.css" integrity="sha256-SqgiMDVSmTxQPw860QFjyNc6Bp5RBKDrIYY10uxJqkE=" crossorigin="anonymous">
+<link rel="stylesheet" href="/book.min.3c3236d10877e1fe22e410dbdcc10a94aeb0a9ca2b9736f7aef90624c055b56b.css" >
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.b03f54353a79aa6be0fd64340c01d9a736d1dd0798e28a9cacdad7396985138d.js" integrity="sha256-sD9UNTp5qmvg/WQ0DAHZpzbR3QeY4oqcrNrXOWmFE40=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="https://example.org/_/theme-page/index.xml" title="رحيق السنة" />
+  <script defer src="/en.search.min.cf0eb583cc2e2743d5a018479cf504db291844845ddbd2ce9cbcb397773408e8.js" ></script>
+<link rel="alternate" type="application/rss+xml" href="/_/theme-page/index.xml" title="رحيق السنة" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -36,7 +36,22 @@ var selectedTheme = localStorage.getItem("theme");
 if(selectedTheme) {
     document.documentElement.setAttribute("data-theme", selectedTheme);
 }
+var body_background = localStorage.getItem("body-background");
+if(body_background) {
+    document.documentElement.style.setProperty("--custom-body-background", body_background);
+}
+var font_color = localStorage.getItem("font-color");
+if(font_color) {
+    document.documentElement.style.setProperty("--custom-font-color", font_color);
+}
+var font_zoom = localStorage.getItem("font-zoom");
+if(font_zoom) {
+    document.documentElement.style.setProperty("--custom-font-zoom", font_zoom);
+}
 </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/cdn/themes/dark.css"/>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.12.0/cdn/shoelace-autoloader.js"></script>
 <body dir="rtl">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
@@ -519,14 +534,263 @@ if(selectedTheme) {
   تغيير المظهر
   <a class="anchor" href="#%d8%aa%d8%ba%d9%8a%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d8%b8%d9%87%d8%b1">#</a>
 </h1>
-<select class="select select-accent w-full max-w-xs" data-choose-theme>
-  <option value="light">light</option>
+<p>
+  <a href="https://link-url-here.org">Link text Here</a>
+<select data-choose-theme>
+  <option value="dark">default</option>
   <option value="dark">dark</option>
+  <option value="light">light</option>
   <option value="green">green</option>
+  <option value="custom">custom</option>
 </select>
+<div class="pickers">
+  <div class="pickers">
+    --gray-100
+    <sl-color-picker
+      id="gray-100"
+      opacity
+      value="rgba(255, 255, 255, 0.1)"
+    ></sl-color-picker>
+  </div>
+  <div class="pickers">
+    --gray-200
+    <sl-color-picker
+      id="gray-200"
+      opacity
+      value="rgba(255, 255, 255, 0.2)"
+    ></sl-color-picker>
+  </div>
+
+  <div class="pickers">
+    --gray-500
+    <sl-color-picker
+      id="gray-500"
+      opacity
+      value="rgba(255, 255, 255, 0.5)"
+    ></sl-color-picker>
+  </div>
+  <div class="pickers">
+    --color-link
+    <sl-color-picker id="color-link" opacity value="#b6c8e7"></sl-color-picker>
+  </div>
+
+  <div class="pickers">
+    --color-visited-link
+    <sl-color-picker
+      id="color-visited-link"
+      opacity
+      value="#b6c8e7"
+    ></sl-color-picker>
+  </div>
+  <div class="pickers">
+    --body-background
+    <sl-color-picker
+      id="body-background"
+      opacity
+      value="#080b12"
+    ></sl-color-picker>
+  </div>
+  <div class="pickers">
+    --body-font-color
+    <sl-color-picker
+      id="body-font-color"
+      opacity
+      value="#d3e7fa"
+    ></sl-color-picker>
+  </div>
+  <div class="pickers">
+    --hint-color-warning
+    <sl-color-picker
+      id="hint-color-warning"
+      opacity
+      value="#fd6"
+    ></sl-color-picker>
+  </div>
+  <div class="pickers">
+    --hint-color-info
+    <sl-color-picker
+      id="hint-color-info"
+      opacity
+      value="#6bf"
+    ></sl-color-picker>
+  </div>
+  <div class="pickers">
+    --hint-color-danger
+    <sl-color-picker
+      id="hint-color-danger"
+      opacity
+      value="#f66"
+    ></sl-color-picker>
+  </div>
+</div>
+
+<style>
+  .pickers {
+    border: 2px dotted var(--body-font-color);
+  }
+</style>
+
+<script>
+  r = document.documentElement.style;
+
+  const colorpickerGray100 = document.getElementById("gray-100");
+  const colorpickerGray200 = document.getElementById("gray-200");
+  const colorpickerGray500 = document.getElementById("gray-500");
+
+  const colorpickerColorLink = document.getElementById("color-link");
+  const colorpickerColorVisitedLink =
+    document.getElementById("color-visited-link");
+
+  const colorpickerBodyBackground = document.getElementById("body-background");
+  const colorpickerBodyFontColor = document.getElementById("body-font-color");
+
+  const colorpickerHintColorInfo = document.getElementById("color-info");
+  const colorpickerHintColorWarning = document.getElementById("color-warning");
+  const colorpickerHintColorDanger = document.getElementById("color-danger");
+
+  colorpickerGray100.addEventListener("sl-change", () => {
+    localStorage.setItem("gray-100", colorpickerGray100.value);
+    document.documentElement.style.setProperty(
+      "--custom-gray-100",
+      colorpickerGray100.value
+    );
+  });
+
+  colorpickerGray200.addEventListener("sl-change", () => {
+    localStorage.setItem("gray-200", colorpickerGray200.value);
+    document.documentElement.style.setProperty(
+      "--custom-gray-200",
+      colorpickerGray200.value
+    );
+  });
+
+  colorpickerGray500.addEventListener("sl-change", () => {
+    localStorage.setItem("gray-500", colorpickerGray500.value);
+    document.documentElement.style.setProperty(
+      "--custom-gray-500",
+      colorpickerGray500.value
+    );
+  });
+
+  colorpickerColorLink.addEventListener("sl-change", () => {
+    localStorage.setItem("color-link", colorpickerColorLink.value);
+    document.documentElement.style.setProperty(
+      "--custom-color-link",
+      colorpickerColorLink.value
+    );
+  });
+
+  colorpickerColorVisitedLink.addEventListener("sl-change", () => {
+    localStorage.setItem(
+      "color-link-visited",
+      colorpickerColorVisitedLink.value
+    );
+    document.documentElement.style.setProperty(
+      "--custom-color-visited-link",
+      colorpickerColorVisitedLink.value
+    );
+  });
+
+  colorpickerBodyBackground.addEventListener("sl-change", () => {
+    localStorage.setItem("body-background", colorpickerBodyBackground.value);
+    document.documentElement.style.setProperty(
+      "--custom-body-background",
+      colorpickerBodyBackground.value
+    );
+  });
+
+  colorpickerBodyFontColor.addEventListener("sl-change", () => {
+    localStorage.setItem("font-color", colorpickerBodyFontColor.value);
+    document.documentElement.style.setProperty(
+      "--custom-font-color",
+      colorpickerBodyFontColor.value
+    );
+  });
+
+  colorpickerHintColorInfo.addEventListener("sl-change", () => {
+    localStorage.setItem("color-info", colorpickerHintColorInfo.value);
+    document.documentElement.style.setProperty(
+      "--custom-color-info",
+      colorpickerHintColorInfo.value
+    );
+  });
+
+  colorpickerHintColorWarning.addEventListener("sl-change", () => {
+    localStorage.setItem("color-warning", colorpickerHintColorWarning.value);
+    document.documentElement.style.setProperty(
+      "--custom-color-warning",
+      colorpickerHintColorWarning.value
+    );
+  });
+
+  colorpickerHintColorDanger.addEventListener("sl-change", () => {
+    localStorage.setItem("color-danger", colorpickerHintColorDanger.value);
+    document.documentElement.style.setProperty(
+      "--custom-color-danger",
+      colorpickerHintColorDanger.value
+    );
+  });
+</script>
+
+
+</p>
+<h1>font size</h1>
+
+<div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="xx-small" />xx-small
+  </div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="x-small" />x-small
+  </div>
+    <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="small" />small
+  </div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="medium" />medium
+  </div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="large" />large
+  </div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="x-large" />x-large
+  </div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="xx-large" />xx-large
+  </div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="xxx-large" /> xxx-large
+  </div>
+</div>
+
+<button onclick="zooming()"> apply </button>
+<script>
+  let ZoomValue = document.querySelector('input[name=zoomselect]:checked').id
 
 
 
+  function zooming() {
+    localStorage.setItem("font-zoom",document.querySelector('input[name=zoomselect]:checked').id );
+var font_zoom = localStorage.getItem("font-zoom");
+
+    document.documentElement.style.setProperty(
+      "--custom-font-zoom",
+      font_zoom
+    );
+  }
+</script>
+
+<style>
+  .selectDiv {
+    border: 2px dotted var(--body-font-color);
+  }
+</style>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </article>
  
       

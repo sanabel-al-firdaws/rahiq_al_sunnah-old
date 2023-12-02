@@ -5,8 +5,8 @@ $padding-8: 0.5rem !default;
 $padding-16: 1rem !default;
 
 $font-size-base: 16px !default;
-$font-size-12: 0.75rem !default;
-$font-size-14: 0.875rem !default;
+$font-size-12: 0.9rem !default;
+$font-size-14: 0.8rem !default;
 $font-size-16: 1rem !default;
 
 $border-radius: $padding-4 !default;
@@ -14,13 +14,26 @@ $border-radius: $padding-4 !default;
 $body-font-weight: normal !default;
 
 $body-min-width: 20rem !default;
-$container-max-width: 80rem !default;
+$container-max-width:90rem !default;
 
 $header-height: 3.5rem !default;
-$menu-width: 16rem !default;
-$toc-width: 16rem !default;
+$menu-width: 10rem !default;
+$toc-width: 10rem !default;
 
 $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
+a {
+  border:1px dotted var(--body-font-color );
+  border-radius: 10px;
+  padding-left: 2px;
+   padding-right: 2px;
+    padding-top: 2px;
+     padding-bottom: 2px;
+}
+
+.markdown {
+font-size:var(--custom-font-zoom);
+width: 100%;
+}
 
 $hint-colors: (
   info: #6bf,
@@ -81,4 +94,22 @@ $hint-colors: (
   --hint-color-info: #6bf;
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
+}
+
+@mixin theme-custom {
+  --gray-100: var(--custom-gray-100);
+  --gray-200: var(--custom-gray-200)
+  --gray-500: var(--custom-gray-500)
+
+  --color-link: var(--custom-color-link)
+  --color-visited-link:  var(--custom-color-visited-link);
+
+  --body-background: var(--custom-body-background);
+  --body-font-color:  var(--custom-font-color);
+
+  --icon-filter: brightness(0) invert(1);
+
+  --hint-color-info:  var(--custom-color-info);
+  --hint-color-warning:var(--custom-color-warning);
+  --hint-color-danger: var(--custom-color-danger);
 }

@@ -1,0 +1,58 @@
+<h1>font size</h1>
+
+<div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="xx-small" />xx-small
+  </div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="x-small" />x-small
+  </div>
+    <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="small" />small
+  </div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="medium" />medium
+  </div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="large" />large
+  </div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="x-large" />x-large
+  </div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="xx-large" />xx-large
+  </div>
+  <div class="selectDiv">
+    <input type="radio" name="zoomselect" id="xxx-large" /> xxx-large
+  </div>
+</div>
+
+<button onclick="zooming()"> apply </button>
+<script>
+  let ZoomValue = document.querySelector('input[name=zoomselect]:checked').id
+
+{{/*    
+  const FontZoom = localStorage.getItem("font-zoom");  */}}
+
+  function zooming() {
+    localStorage.setItem("font-zoom",document.querySelector('input[name=zoomselect]:checked').id );
+var font_zoom = localStorage.getItem("font-zoom");
+
+    document.documentElement.style.setProperty(
+      "--custom-font-zoom",
+      font_zoom
+    );
+  }
+</script>
+
+<style>
+  .selectDiv {
+    border: 2px dotted var(--body-font-color);
+  }
+</style>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

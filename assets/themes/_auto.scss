@@ -7,3 +7,6 @@
 [data-theme="green"] {
   @include theme-green;
 }
+[data-theme="custom"] {
+  @include theme-custom;
+}
