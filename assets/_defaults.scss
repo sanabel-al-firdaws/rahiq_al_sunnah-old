@@ -21,9 +21,11 @@ $menu-width: 10rem !default;
 $toc-width: 10rem !default;
 
 $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
-// content a {
-//    border:1px dotted transparent;
-// }
+ .cbr {
+   border:  1px inset var(--body-font-color );
+   margin-top: 10px; margin-bottom: 10px;
+}
+
 .book-toc-content a {
   border:1px dotted var(--body-font-color );
   border-radius: 10px;
