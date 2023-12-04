@@ -6,85 +6,29 @@
   <option value="custom">custom</option>
 </select>
 <div class="pickers">
-  <div class="pickers">
-    --gray-100
-    <sl-color-picker
-      id="gray-100"
-      opacity
-      value="rgba(255, 255, 255, 0.1)"
-    ></sl-color-picker>
-  </div>
-  <div class="pickers">
-    --gray-200
-    <sl-color-picker
-      id="gray-200"
-      opacity
-      value="rgba(255, 255, 255, 0.2)"
-    ></sl-color-picker>
-  </div>
-
-  <div class="pickers">
-    --gray-500
-    <sl-color-picker
-      id="gray-500"
-      opacity
-      value="rgba(255, 255, 255, 0.5)"
-    ></sl-color-picker>
-  </div>
-  <div class="pickers">
-    --color-link
-    <sl-color-picker id="color-link" opacity value="#b6c8e7"></sl-color-picker>
-  </div>
-
-  <div class="pickers">
-    --color-visited-link
-    <sl-color-picker
-      id="color-visited-link"
-      opacity
-      value="#b6c8e7"
-    ></sl-color-picker>
-  </div>
-  <div class="pickers">
-    --body-background
-    <sl-color-picker
-      id="body-background"
-      opacity
-      value="#080b12"
-    ></sl-color-picker>
-  </div>
-  <div class="pickers">
-    --body-font-color
-    <sl-color-picker
-      id="body-font-color"
-      opacity
-      value="#d3e7fa"
-    ></sl-color-picker>
-  </div>
-  <div class="pickers">
-    --hint-color-warning
-    <sl-color-picker
-      id="hint-color-warning"
-      opacity
-      value="#fd6"
-    ></sl-color-picker>
-  </div>
-  <div class="pickers">
-    --hint-color-info
-    <sl-color-picker
-      id="hint-color-info"
-      opacity
-      value="#6bf"
-    ></sl-color-picker>
-  </div>
-  <div class="pickers">
-    --hint-color-danger
-    <sl-color-picker
-      id="hint-color-danger"
-      opacity
-      value="#f66"
-    ></sl-color-picker>
-  </div>
+  --body-background
+  <sl-color-picker
+    id="body-background"
+    opacity
+    value="#080b12"
+  ></sl-color-picker>
 </div>
+<div class="pickers">
+  --body-font-color
+  <sl-color-picker
+    id="body-font-color"
+    opacity
+    value="#d3e7fa"
+  ></sl-color-picker>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <style>
   .pickers {
@@ -95,64 +39,8 @@
 <script>
   r = document.documentElement.style;
 
-  const colorpickerGray100 = document.getElementById("gray-100");
-  const colorpickerGray200 = document.getElementById("gray-200");
-  const colorpickerGray500 = document.getElementById("gray-500");
-
-  const colorpickerColorLink = document.getElementById("color-link");
-  const colorpickerColorVisitedLink =
-    document.getElementById("color-visited-link");
-
   const colorpickerBodyBackground = document.getElementById("body-background");
   const colorpickerBodyFontColor = document.getElementById("body-font-color");
-
-  const colorpickerHintColorInfo = document.getElementById("color-info");
-  const colorpickerHintColorWarning = document.getElementById("color-warning");
-  const colorpickerHintColorDanger = document.getElementById("color-danger");
-
-  colorpickerGray100.addEventListener("sl-change", () => {
-    localStorage.setItem("gray-100", colorpickerGray100.value);
-    document.documentElement.style.setProperty(
-      "--custom-gray-100",
-      colorpickerGray100.value
-    );
-  });
-
-  colorpickerGray200.addEventListener("sl-change", () => {
-    localStorage.setItem("gray-200", colorpickerGray200.value);
-    document.documentElement.style.setProperty(
-      "--custom-gray-200",
-      colorpickerGray200.value
-    );
-  });
-
-  colorpickerGray500.addEventListener("sl-change", () => {
-    localStorage.setItem("gray-500", colorpickerGray500.value);
-    document.documentElement.style.setProperty(
-      "--custom-gray-500",
-      colorpickerGray500.value
-    );
-  });
-
-  colorpickerColorLink.addEventListener("sl-change", () => {
-    localStorage.setItem("color-link", colorpickerColorLink.value);
-    document.documentElement.style.setProperty(
-      "--custom-color-link",
-      colorpickerColorLink.value
-    );
-  });
-
-  colorpickerColorVisitedLink.addEventListener("sl-change", () => {
-    localStorage.setItem(
-      "color-link-visited",
-      colorpickerColorVisitedLink.value
-    );
-    document.documentElement.style.setProperty(
-      "--custom-color-visited-link",
-      colorpickerColorVisitedLink.value
-    );
-  });
-
   colorpickerBodyBackground.addEventListener("sl-change", () => {
     localStorage.setItem("body-background", colorpickerBodyBackground.value);
     document.documentElement.style.setProperty(
@@ -168,32 +56,4 @@
       colorpickerBodyFontColor.value
     );
   });
-
-  colorpickerHintColorInfo.addEventListener("sl-change", () => {
-    localStorage.setItem("color-info", colorpickerHintColorInfo.value);
-    document.documentElement.style.setProperty(
-      "--custom-color-info",
-      colorpickerHintColorInfo.value
-    );
-  });
-
-  colorpickerHintColorWarning.addEventListener("sl-change", () => {
-    localStorage.setItem("color-warning", colorpickerHintColorWarning.value);
-    document.documentElement.style.setProperty(
-      "--custom-color-warning",
-      colorpickerHintColorWarning.value
-    );
-  });
-
-  colorpickerHintColorDanger.addEventListener("sl-change", () => {
-    localStorage.setItem("color-danger", colorpickerHintColorDanger.value);
-    document.documentElement.style.setProperty(
-      "--custom-color-danger",
-      colorpickerHintColorDanger.value
-    );
-  });
 </script>
-
-{{/* colorpickerGray100.addEventListener("sl-blur", () => {
-document.documentElement.style.setProperty( "--custom-gray-100",
-colorpickerGray100.value ); console.log("done"); }); */}}

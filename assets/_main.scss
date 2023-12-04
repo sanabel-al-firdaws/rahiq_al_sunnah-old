@@ -11,7 +11,7 @@ body {
 
   letter-spacing: 0.33px;
   font-weight: $body-font-weight;
-  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -112,7 +112,7 @@ ul.pagination {
   label {
     color: inherit;
     cursor: pointer;
-    word-wrap: break-word;
+    word-wrap: normal;
   }
 
   a.active {

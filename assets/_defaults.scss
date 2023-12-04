@@ -32,7 +32,7 @@ $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
 
 }
 html {
-  background-image: url("img/haram.png") ;
+  background-image: url("img/ammar.jpeg") ;
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -40,7 +40,9 @@ html {
 
 .markdown {
 font-size:var(--custom-font-zoom);
-
+font-weight: bold;
+// stroke: black;
+// stroke-width: 1px;
 }
 
 $hint-colors: (
