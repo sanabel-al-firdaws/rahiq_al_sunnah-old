@@ -31,7 +31,12 @@ $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
   border-radius: 10px;
 
 }
-
+html {
+  background-image: url("img/haram.png") ;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 .markdown {
 font-size:var(--custom-font-zoom);
