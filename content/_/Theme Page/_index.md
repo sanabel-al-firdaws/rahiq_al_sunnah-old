@@ -1,12 +1,25 @@
 ---
 bookCollapseSection: false
-weight: 20
+weight: 
+bookFlatSection: true
 title: تغيير المظهر
 ---
 
 # تغيير المظهر
 
-[Link text Here](https://link-url-here.org)
+
 {{< themechange >}}
 
+
+
+
 {{< fontzoom >}}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
