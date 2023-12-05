@@ -12,14 +12,13 @@ title: تغيير المظهر
 
 
 
+<br >
+<br >
+<br >
+
+<br >
+<br >
+<br >
+<br >
 
 {{< fontzoom >}}
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
