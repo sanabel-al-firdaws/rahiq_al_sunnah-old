@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on رحيق السنة</title>
-    <link>/docs/</link>
+    <link>https://rahiq-al-sunnah.netlify.app/docs/</link>
     <description>Recent content in Docs on رحيق السنة</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ar-sa</language>
-    <atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rahiq-al-sunnah.netlify.app/docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

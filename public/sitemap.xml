@@ -2,95 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/docs/example/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/example/</loc>
   </url><url>
-    <loc>/docs/example/table-of-contents/with-toc/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/example/table-of-contents/with-toc/</loc>
   </url><url>
-    <loc>/_/al-fahras-page/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/books/</loc>
   </url><url>
-    <loc>/docs/books/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/_/kitab-al-hadith/</loc>
   </url><url>
-    <loc>/docs/example/table-of-contents/without-toc/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/example/table-of-contents/without-toc/</loc>
   </url><url>
-    <loc>/posts/%D8%B5%D9%81%D8%A9-%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D9%83%D8%B3%D9%88%D9%81/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/posts/%D8%B5%D9%81%D8%A9-%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D9%83%D8%B3%D9%88%D9%81/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/docs/example/table-of-contents/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/example/table-of-contents/</loc>
   </url><url>
-    <loc>/docs/example/collapsed/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/example/collapsed/</loc>
   </url><url>
-    <loc>/_/theme-page/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/_/todo-app/</loc>
   </url><url>
-    <loc>/_/kitab-al-salah/</loc>
-  </url><url>
-    <loc>/_/kitab-al-tahara/</loc>
-  </url><url>
-    <loc>/_/kitab1/</loc>
-  </url><url>
-    <loc>/posts/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/posts/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/_/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/_/</loc>
   </url><url>
-    <loc>/docs/example/collapsed/3rd-level/4th-level/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/_/todo-app/drawing/</loc>
   </url><url>
-    <loc>/docs/example/collapsed/3rd-level/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/example/collapsed/3rd-level/4th-level/</loc>
   </url><url>
-    <loc>/docs/example/hidden/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/example/collapsed/3rd-level/</loc>
   </url><url>
-    <loc>/docs/shortcodes/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/example/hidden/</loc>
   </url><url>
-    <loc>/docs/shortcodes/buttons/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/shortcodes/</loc>
   </url><url>
-    <loc>/docs/shortcodes/columns/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/shortcodes/buttons/</loc>
   </url><url>
-    <loc>/docs/shortcodes/details/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/shortcodes/columns/</loc>
   </url><url>
-    <loc>/docs/shortcodes/hints/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/shortcodes/details/</loc>
   </url><url>
-    <loc>/docs/shortcodes/katex/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/shortcodes/hints/</loc>
   </url><url>
-    <loc>/docs/shortcodes/mermaid/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/shortcodes/katex/</loc>
   </url><url>
-    <loc>/docs/shortcodes/section/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/shortcodes/mermaid/</loc>
   </url><url>
-    <loc>/docs/shortcodes/section/first-page/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/shortcodes/section/</loc>
   </url><url>
-    <loc>/docs/shortcodes/section/second-page/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/shortcodes/section/first-page/</loc>
   </url><url>
-    <loc>/docs/shortcodes/tabs/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/shortcodes/section/second-page/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/shortcodes/tabs/</loc>
   </url><url>
-    <loc>/docs/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/categories/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/docs/</loc>
   </url><url>
-    <loc>/_/kitab-al-tahara/bab-al-wodo/hadith1/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/tags/</loc>
   </url><url>
-    <loc>/_/kitab-al-salah/bab-al-salawat-al-khams/</loc>
-  </url><url>
-    <loc>/_/kitab-al-tahara/bab-al-wodo/</loc>
-  </url><url>
-    <loc>/_/kitab-al-salah/bab-salat-al-doha/</loc>
-  </url><url>
-    <loc>/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-dohor/</loc>
-  </url><url>
-    <loc>/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-aisha/</loc>
-  </url><url>
-    <loc>/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-asr/</loc>
-  </url><url>
-    <loc>/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-fajr/</loc>
-  </url><url>
-    <loc>/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-magrib/</loc>
-  </url><url>
-    <loc>/_/kitab-al-salah/bab-salat-al-doha/adad-rakat-salat-al-doha/</loc>
-  </url><url>
-    <loc>/_/kitab-al-salah/bab-salat-al-doha/fadlo-salat-al-doha/</loc>
-  </url><url>
-    <loc>/_/kitab-al-salah/bab-salat-al-doha/waqt-salat-al-doha/</loc>
+    <loc>https://rahiq-al-sunnah.netlify.app/_/theme-page/</loc>
   </url>
 </urlset>
