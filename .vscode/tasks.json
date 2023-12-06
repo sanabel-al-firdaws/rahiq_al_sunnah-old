@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "cd C:/coding/hugo/rahiq_al_sunnah/layouts/shortcodes ; elm make ../../src/Main.elm --output elm-app.html",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "compile  elm",
+			"detail": "compile fast"
+		}
+	]
+}

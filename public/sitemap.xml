@@ -22,6 +22,8 @@
   </url><url>
     <loc>/docs/example/collapsed/</loc>
   </url><url>
+    <loc>/_/mohadarat/</loc>
+  </url><url>
     <loc>/_/todo-app/</loc>
   </url><url>
     <loc>/_/theme-page/</loc>
@@ -64,5 +66,9 @@
     <loc>/docs/</loc>
   </url><url>
     <loc>/tags/</loc>
+  </url><url>
+    <loc>/_/contact/</loc>
+  </url><url>
+    <loc>/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-asr/</loc>
   </url>
 </urlset>

@@ -8,9 +8,10 @@ bookFlatSection: true
 جدول مواعيد وتنبيهات 
 
 
+<div>
 
-
-
+{{< elm-main >}}
+<div/>
 <br />
 <br />
 <br />
@@ -26,4 +27,5 @@ bookFlatSection: true
 <br />
 <br />
 <br />
+{{< elm-test >}}
 قيد التطوير
