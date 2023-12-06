@@ -5307,9 +5307,9 @@ var $author$project$Main$view = function (model) {
 				$elm$html$Html$button,
 				_List_fromArray(
 					[
-						A2($elm$html$Html$Attributes$style, 'color', 'var(--body-font-color)'),
 						A2($elm$html$Html$Attributes$style, 'background', 'var(--body-background)'),
-						A2($elm$html$Html$Attributes$style, 'border', '2px solid var(--body-font-color)'),
+						A2($elm$html$Html$Attributes$style, 'border', '1px solid var(--body-font-color)'),
+						A2($elm$html$Html$Attributes$style, 'color', 'var(--body-font-color)'),
 						A2($elm$html$Html$Attributes$style, 'border-radius', '5px'),
 						$elm$html$Html$Events$onClick($author$project$Main$Decrement)
 					]),
@@ -5333,13 +5333,15 @@ var $author$project$Main$view = function (model) {
 				_List_fromArray(
 					[
 						A2($elm$html$Html$Attributes$style, 'color', 'var(--body-font-color)'),
+						A2($elm$html$Html$Attributes$style, 'background', 'var(--body-background)'),
+						A2($elm$html$Html$Attributes$style, 'border', '1px solid var(--body-font-color)'),
+						A2($elm$html$Html$Attributes$style, 'border-radius', '5px'),
 						$elm$html$Html$Events$onClick($author$project$Main$Increment)
 					]),
 				_List_fromArray(
 					[
 						$elm$html$Html$text('+')
-					])),
-				$elm$html$Html$text('hello')
+					]))
 			]));
 };
 var $author$project$Main$main = $elm$browser$Browser$sandbox(

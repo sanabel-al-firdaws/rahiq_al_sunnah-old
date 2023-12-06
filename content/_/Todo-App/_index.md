@@ -10,10 +10,14 @@ bookFlatSection: true
 
 <div>
 
-{{< elm-main >}}
+<pre  id="elm-main"></pre >
+
 <div/>
 <br />
 <br />
+
+<pre id="elm-test"></pre>
+
 <br />
 <br />
 <br />
@@ -27,5 +31,4 @@ bookFlatSection: true
 <br />
 <br />
 <br />
-{{< elm-test >}}
 قيد التطوير

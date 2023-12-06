@@ -7,7 +7,7 @@ import Html.Events exposing (onInput)
 
 
 
--- MAIN
+-- main
 
 
 main : Program () Model Msg

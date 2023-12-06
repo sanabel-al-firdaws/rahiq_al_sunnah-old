@@ -61,14 +61,20 @@ view : Model -> Html Msg
 view model =
     div []
         [ button
-            [ style "color" "var(--body-font-color)"
-            , style "background" "var(--body-background)"
-            , style "border" "2px solid var(--body-font-color)"
+            [ style "background" "var(--body-background)"
+            , style "border" "1px solid var(--body-font-color)"
+            , style "color" "var(--body-font-color)"
             , style "border-radius" "5px"
             , onClick Decrement
             ]
             [ text "-" ]
         , div [ style "color" "var(--body-font-color)" ] [ text (String.fromInt model) ]
-        , button [ style "color" "var(--body-font-color)", onClick Increment ] [ text "+" ]
-        , text "hello"
+        , button
+            [ style "color" "var(--body-font-color)"
+            , style "background" "var(--body-background)"
+            , style "border" "1px solid var(--body-font-color)"
+            , style "border-radius" "5px"
+            , onClick Increment
+            ]
+            [ text "+" ]
         ]
