@@ -3,6 +3,6 @@
       "target": {
         "namespace": "android_app",
         "package_name": "app.netlify.rahiq_al_sunnah.twa",
-        "sha256_cert_fingerprints": ["B9:E5:4D:E7:E5:E2:F3:8D:4C:B9:CA:7E:1C:AE:43:01:C6:34:08:20:1E:4B:6D:20:6C:B8:63:80:E5:16:9C:23"]
+        "sha256_cert_fingerprints": ["32:EC:9F:26:37:45:08:76:0F:36:53:64:B3:E4:8E:66:10:51:46:E2:FE:A1:88:6A:3B:6B:CF:E5:58:2A:25:BE"]
       }
     }]

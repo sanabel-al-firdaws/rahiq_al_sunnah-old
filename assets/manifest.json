@@ -6,6 +6,21 @@
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
+  "shortcuts": [
+    {
+      "name": "كتاب الحديث",
+      "url": "_/kitab-al-hadith/",
+      "description": "مجموعة من الاحاديث المختارة"
+    },
+    {
+      "name": "جدولي",
+      "url": "/_/todo-app/"
+    },
+    {
+      "name": "تغيير المظهر",
+      "url": "/_/theme-page/"
+    }
+  ],
   "icons": [
     {
       "src": "{{ "/favicon.svg" | relURL }}",
