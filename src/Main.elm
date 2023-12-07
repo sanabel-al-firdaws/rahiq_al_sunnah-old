@@ -31,7 +31,9 @@ type alias Model =
 
 init : Model
 init =
-    0
+    inital_value =
+    5
+
 
 
 
@@ -41,6 +43,7 @@ init =
 type Msg
     = Increment
     | Decrement
+    | Reset
 
 
 update : Msg -> Model -> Model
@@ -51,6 +54,9 @@ update msg model =
 
         Decrement ->
             model - 1
+
+        Reset ->
+            inital_value
 
 
 
@@ -77,4 +83,12 @@ view model =
             , onClick Increment
             ]
             [ text "+" ]
+        , button
+            [ style "color" "var(--body-font-color)"
+            , style "background" "var(--body-background)"
+            , style "border" "1px solid var(--body-font-color)"
+            , style "border-radius" "5px"
+            , onClick Reset  
+            ]
+            [ text "Reset Number" ]
         ]

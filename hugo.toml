@@ -2,7 +2,7 @@ baseURL = '/'
 languageCode = 'ar-sa'
 title = 'رحيق السنة'
 
-theme ='hugo-book-o'
+theme ='hugo-book'
 
 
 [params]
