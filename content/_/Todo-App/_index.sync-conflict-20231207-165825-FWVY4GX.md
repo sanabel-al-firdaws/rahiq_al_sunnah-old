@@ -7,8 +7,8 @@ bookFlatSection: true
 ## المزايا
 جدول مواعيد وتنبيهات 
 
-لما نكتب هنا
-هلووو هل تراني
+
+
 
 <pre  id="elm-main"></pre >
 
