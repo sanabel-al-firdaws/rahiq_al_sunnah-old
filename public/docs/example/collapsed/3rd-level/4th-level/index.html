@@ -23,7 +23,7 @@ Venasque repulsa Samos qui, exspectatum eram animosque hinc, aut manes, Assyrii.
 <link rel="icon" href="/favicon.png" >
 <link rel="stylesheet" href="/book.min.0070471ca09e36711e885d89d77e938c5c437bea9ac713676744e00e009947f9.css" >
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.8f1c66c85b413737d9815ed7195c0a17b0aacccb429ef85d2e2ab7f667ab4d04.js" ></script>
+  <script defer src="/en.search.min.10a02e4805bbd824cf85b9c459e72e4bf2c3a5d834c756a7ee8d0ffad6ef0a0e.js" ></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" ></script>
 <!--
@@ -31,10 +31,7 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
   
-
-
-
-
+<script src="/elm/elm-app.js" ></script>
 
 </head>
 <script async crossorigin="anonymous">
@@ -102,6 +99,24 @@ if(font_zoom) {
   
 
   
+    <a href="/_/al-fahras-page/" class="">الفهرس</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
     <a href="/_/kitab-al-hadith/" class="">كتاب الحديث</a>
   
 
@@ -114,16 +129,13 @@ if(font_zoom) {
       
     
       
-        <li>
+        <li class="book-section-flat" >
           
   
   
 
   
-    <input type="checkbox" id="section-d9bd46041c5b3b1c617e47235b9d91e0" class="toggle"  />
-    <label for="section-d9bd46041c5b3b1c617e47235b9d91e0" class="flex justify-between">
-      <a href="/_/mohadarat/" class="">محاضرات يوم السبت</a>
-    </label>
+    <a href="/_/mohadarat/" class="">محاضرات يوم السبت</a>
   
 
           
@@ -171,7 +183,7 @@ if(font_zoom) {
       
     
       
-        <li>
+        <li class="book-section-flat" >
           
   
   
@@ -305,7 +317,18 @@ iusto! Sedes ante dum superest <strong>extrema</strong>.</p>
 
 
  
-        
+        <script>
+    var app = Elm.Main.init({
+        node: document.getElementById("elm-main")
+    });  
+</script>
+<script>
+
+    var app = Elm.Test.init({
+        node: document.getElementById("elm-test")
+    });
+
+</script>
       </footer>
 
       

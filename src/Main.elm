@@ -23,17 +23,25 @@ main =
 
 
 -- MODEL
+type alias Todo =
+    { text : String ---what is this task
+    , completed : Bool ---Is this task done??
+    }
 
+type alias Model1 = 
+    { todos: List Todo ---this is a list of todos!!!
+    , inputText: String
+    }
 
 type alias Model =
     Int
 
 
 init : Model
-init =
-    inital_value =
-    5
+init = initial_number
 
+initial_number: Int
+initial_number = 0
 
 
 
@@ -56,7 +64,7 @@ update msg model =
             model - 1
 
         Reset ->
-            inital_value
+            initial_number
 
 
 
@@ -90,5 +98,5 @@ view model =
             , style "border-radius" "5px"
             , onClick Reset  
             ]
-            [ text "Reset Number" ]
+            [ text "Reset this Number" ]
         ]

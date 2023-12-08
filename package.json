@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "hugo-dev": "npm run watch-tw & hugo server --disableFastRender",
-    "hugo-build": "npm run build-tw && hugo",
-    "build-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/style.css",
-    "watch-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/style.css -w --minify"
+    "hugo-dev": "npm run elm-dev && hugo server --disableFastRender",
+    "hugo-build": "npm run elm-build & hugo",
+    "elm-dev": "watch \" elm make src/Main.elm src/Test.elm --output=assets/elm/elm-app.js \" src/",
+    "elm-build": "uglifyjs assets/elm/elm-app.js --compress 'pure_funcs=[F2,F3,F4,F5,F6,F7,F8,F9,A2,A3,A4,A5,A6,A7,A8,A9],pure_getters,keep_fargs=false,unsafe_comps,unsafe' |  uglifyjs --mangle --output assets/elm/elm-app.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "tailwindcss": "^3.3.5"
   },
   "dependencies": {
-    "theme-change": "^2.5.0"
+    "theme-change": "^2.5.0",
+    "watch": "^0.13.0"
   }
 }

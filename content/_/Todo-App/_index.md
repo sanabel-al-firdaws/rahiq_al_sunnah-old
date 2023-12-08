@@ -5,17 +5,13 @@ bookFlatSection: true
 ---
 # جدولي
 ## المزايا
-جدول مواعيد وتنبيهات 
-
-لما نكتب هنا
-هلووو هل تراني
+جدول مواعيد
 
 <pre  id="elm-main"></pre >
 
 
 <br >
 <br >
-
 <pre id="elm-test"></pre>
 
 <br >

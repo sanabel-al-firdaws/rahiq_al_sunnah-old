@@ -5,10 +5,7 @@ bookFlatSection: true
 ---
 # جدولي
 ## المزايا
-جدول مواعيد وتنبيهات 
-
-
-
+جدول مواعيد
 
 <pre  id="elm-main"></pre >
 

@@ -1,7 +1,8 @@
 ---
-bookCollapseSection: true
+
 weight: 20
 title: محاضرات يوم السبت
+bookFlatSection: true
 ---
 
 محاضرات يوم السبت

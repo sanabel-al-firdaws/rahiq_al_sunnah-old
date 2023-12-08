@@ -3,20 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D8%B6%D8%AD%D9%89/</loc>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/docs/example/</loc>
   </url><url>
     <loc>/docs/example/table-of-contents/with-toc/</loc>
+  </url><url>
+    <loc>/_/al-fahras-page/</loc>
   </url><url>
     <loc>/docs/books/</loc>
   </url><url>
     <loc>/_/kitab-al-hadith/</loc>
   </url><url>
     <loc>/docs/example/table-of-contents/without-toc/</loc>
-  </url><url>
-    <loc>/posts/%D8%B5%D9%81%D8%A9-%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D9%83%D8%B3%D9%88%D9%81/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/docs/example/table-of-contents/</loc>
   </url><url>
@@ -29,7 +31,7 @@
     <loc>/_/theme-page/</loc>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/_/</loc>
   </url><url>
@@ -68,7 +70,5 @@
     <loc>/tags/</loc>
   </url><url>
     <loc>/_/contact/</loc>
-  </url><url>
-    <loc>/_/kitab-al-salah/bab-al-salawat-al-khams/salat-al-asr/</loc>
   </url>
 </urlset>
