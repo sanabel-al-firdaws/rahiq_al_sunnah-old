@@ -23,29 +23,25 @@ main =
 
 
 -- MODEL
-type alias Todo =
-    { text : String ---what is this task
-    , completed : Bool ---Is this task done??
-    }
 
-type alias Model1 = 
-    { todos: List Todo ---this is a list of todos!!!
-    , inputText: String
-    }
 
 type alias Model =
     Int
 
 
 init : Model
-init = initial_number
+init =
+    initial_number
 
-initial_number: Int
-initial_number = 0
+
+initial_number : Int
+initial_number =
+    0
 
 
 
 -- UPDATE
+--! We define three messages that it might receive:
 
 
 type Msg
@@ -69,6 +65,7 @@ update msg model =
 
 
 -- VIEW
+--? This function takes in the Model as an argument. It outputs HTML
 
 
 view : Model -> Html Msg
@@ -88,7 +85,7 @@ view model =
             , style "background" "var(--body-background)"
             , style "border" "1px solid var(--body-font-color)"
             , style "border-radius" "5px"
-            , onClick Increment
+            , onClick Increment --! generating an Increment message.
             ]
             [ text "+" ]
         , button
@@ -96,7 +93,7 @@ view model =
             , style "background" "var(--body-background)"
             , style "border" "1px solid var(--body-font-color)"
             , style "border-radius" "5px"
-            , onClick Reset  
+            , onClick Reset
             ]
-            [ text "Reset this Number" ]
+            [ text "Reset Number" ]
         ]

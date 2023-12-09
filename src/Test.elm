@@ -1,7 +1,8 @@
 module Test exposing (..)
 
 import Browser
-import Html exposing (Attribute, Html, div, input, text)
+import Debug exposing (toString)
+import Html exposing (Html, div, input, text)
 import Html.Attributes exposing (..)
 import Html.Events exposing (onInput)
 
@@ -51,6 +52,6 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ input [ placeholder "Text to reverse", value model.content, onInput Change ] []
-        , div [] [ text (String.reverse model.content) ]
+        [ input [ placeholder "new task", value model.content, onInput Change ] []
+        , div [] [ text (toString (String.length model.content)) ]
         ]

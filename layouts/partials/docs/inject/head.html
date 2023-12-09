@@ -1,0 +1,5 @@
+
+
+{{- $elmmain := resources.Get "elm/elm-app.js" }}
+<script src="{{ $elmmain.RelPermalink }}" ></script>
+<!-- delete in production-->
