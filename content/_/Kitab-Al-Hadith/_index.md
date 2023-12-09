@@ -12,7 +12,7 @@ title: "كتاب الحديث"
 
 ---
   
-اختبار 
+
 
   
 # كتاب الطهارة:
@@ -2711,6 +2711,6 @@ title: "كتاب الحديث"
 
 /
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwNzA3NjUwLC0xOTQyMTg1NDAsMTgzNz
-E4MDU4OSwxNjg3MjM0MTM4XX0=
+eyJoaXN0b3J5IjpbLTExNjQ4NDkwNjEsLTE5NDIxODU0MCwxOD
+M3MTgwNTg5LDE2ODcyMzQxMzhdfQ==
 -->
