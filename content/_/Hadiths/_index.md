@@ -17,7 +17,6 @@ title: كتاب الحديث
 ## باب الوضوء
 
   
-
 كُنْتُ خَلْفَ أبِي هُرَيْرَةَ وهو يَتَوَضَّأُ لِلصَّلاةِ، فَكانَ يَمُدُّ يَدَهُ حتَّى تَبْلُغَ إبْطَهُ فَقُلتُ له: يا أبا هُرَيْرَةَ ما هذا الوُضُوءُ؟ فقالَ: يا بَنِي فَرُّوخَ أنتُمْ هاهُنا؟ لو عَلِمْتُ أنَّكُمْ هاهُنا ما تَوَضَّأْتُ هذا الوُضُوءَ، سَمِعْتُ خَلِيلِي صَلَّى اللَّهُ عليه وسلَّمَ يقولُ: تَبْلُغُ الحِلْيَةُ مِنَ المُؤْمِنِ، حَيْثُ يَبْلُغُ الوَضُوءُ.
 
 الراوي : أبو هريرة | المحدث : مسلم | المصدر : صحيح مسلم
@@ -2680,7 +2679,7 @@ title: كتاب الحديث
 
 /
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDUzNDYzNDYsLTExMjkxMjEwMDUsLT
-EwNDUzNDYzNDYsLTQxOTAwNTk4LC0yMjAwNTg1NDgsLTE5ODMy
-MDg4ODEsLTUwOTk3NjE3N119
+eyJoaXN0b3J5IjpbMTIzNjM2OTgzMiwtMTA0NTM0NjM0NiwtMT
+EyOTEyMTAwNSwtMTA0NTM0NjM0NiwtNDE5MDA1OTgsLTIyMDA1
+ODU0OCwtMTk4MzIwODg4MSwtNTA5OTc2MTc3XX0=
 -->
