@@ -10,7 +10,8 @@ title: كتاب الحديث
   
 فكرة المشروع 
 
-  
+ بسم الله الرحمن الرحيم 
+ 
 # كتاب الطهارة
 
   
@@ -2681,6 +2682,6 @@ title: كتاب الحديث
 
 /
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDA1ODU0OCwtMTk4MzIwODg4MSwtNT
-A5OTc2MTc3XX0=
+eyJoaXN0b3J5IjpbLTQxOTAwNTk4LC0yMjAwNTg1NDgsLTE5OD
+MyMDg4ODEsLTUwOTk3NjE3N119
 -->
