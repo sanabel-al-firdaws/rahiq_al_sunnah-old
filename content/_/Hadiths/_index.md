@@ -4,7 +4,7 @@ weight: 1
 
 bookFlatSection: true
 
-title: "كتاب الحديث"
+title: كتاب الحديث"
 
 ---
   
@@ -2681,5 +2681,5 @@ title: "كتاب الحديث"
 
 /
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTk3NjE3N119
+eyJoaXN0b3J5IjpbNjQ4MjY0NTMzLC01MDk5NzYxNzddfQ==
 -->
