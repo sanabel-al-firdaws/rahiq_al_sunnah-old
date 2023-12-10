@@ -98,7 +98,7 @@ title: كتاب الحديث
 
 ----------
 
-  
+ 
 
 إنَّ العبدَ إذا قَامَ يُصلِّي أُتِي بُذُنوبِه كُلِّها فَوُضِعَتْ على رأسِه و عاتِقَيْهِ ، فكُلَّما رَكعَ أو سَجدَ تَساقَطَتْ عَنْهُ
 
@@ -2680,7 +2680,7 @@ title: كتاب الحديث
 
 /
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE2MjU0ODcsMTIzNjM2OTgzMiwtMT
+eyJoaXN0b3J5IjpbLTExNjY4NjIxNDMsMTIzNjM2OTgzMiwtMT
 A0NTM0NjM0NiwtMTEyOTEyMTAwNSwtMTA0NTM0NjM0NiwtNDE5
 MDA1OTgsLTIyMDA1ODU0OCwtMTk4MzIwODg4MSwtNTA5OTc2MT
 c3XX0=
