@@ -8,9 +8,7 @@ title: كتاب الحديث
 
 ---
   
-فكرة المشروع 
-
- 
+فكرة المشروع  
  
 # كتاب الطهارة
 
@@ -2682,6 +2680,6 @@ title: كتاب الحديث
 
 /
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTY5NzI5MzQsLTQxOTAwNTk4LC0yMj
+eyJoaXN0b3J5IjpbLTEwNDUzNDYzNDYsLTQxOTAwNTk4LC0yMj
 AwNTg1NDgsLTE5ODMyMDg4ODEsLTUwOTk3NjE3N119
 -->
