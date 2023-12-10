@@ -3,6 +3,7 @@ bookCollapseSection: false
 weight: 125
 bookFlatSection: true
 title: تغيير المظهر
+
 ---
 
 # تغيير المظهر
@@ -22,3 +23,6 @@ title: تغيير المظهر
 <br >
 
 {{< fontzoom >}}
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTkwNjMyMDE1N119
+-->
