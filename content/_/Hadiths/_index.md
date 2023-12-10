@@ -7,7 +7,7 @@ bookFlatSection: true
 title: كتاب الحديث
 
 ---
-  <pre id=
+  <pre id="elm-main"></pre>
 فكرة المشروع  
  
 # كتاب الطهارة
@@ -2680,7 +2680,7 @@ title: كتاب الحديث
 
 /
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyMDkzMzU3LC0xMDQ1MzQ2MzQ2LC00MT
-kwMDU5OCwtMjIwMDU4NTQ4LC0xOTgzMjA4ODgxLC01MDk5NzYx
-NzddfQ==
+eyJoaXN0b3J5IjpbLTExMjkxMjEwMDUsLTEwNDUzNDYzNDYsLT
+QxOTAwNTk4LC0yMjAwNTg1NDgsLTE5ODMyMDg4ODEsLTUwOTk3
+NjE3N119
 -->
