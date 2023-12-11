@@ -1,8 +1,5 @@
 ---
 
-weight: 1
-
-bookFlatSection: true
 
 title: كتاب الحديث
 
@@ -2678,8 +2675,8 @@ title: كتاب الحديث
 
 /
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY4NjIxNDMsMTIzNjM2OTgzMiwtMT
-A0NTM0NjM0NiwtMTEyOTEyMTAwNSwtMTA0NTM0NjM0NiwtNDE5
-MDA1OTgsLTIyMDA1ODU0OCwtMTk4MzIwODg4MSwtNTA5OTc2MT
-c3XX0=
+eyJoaXN0b3J5IjpbLTExMTE4NjU4OTcsLTExNjY4NjIxNDMsMT
+IzNjM2OTgzMiwtMTA0NTM0NjM0NiwtMTEyOTEyMTAwNSwtMTA0
+NTM0NjM0NiwtNDE5MDA1OTgsLTIyMDA1ODU0OCwtMTk4MzIwOD
+g4MSwtNTA5OTc2MTc3XX0=
 -->
