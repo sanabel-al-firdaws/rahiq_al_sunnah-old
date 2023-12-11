@@ -6,11 +6,11 @@ title: كتاب الحديث
 ---
   
  
-# كتاب الطهارة
+## كتاب الطهارة
 
   
 
-## باب الوضوء
+### باب الوضوء
 
   
 كُنْتُ خَلْفَ أبِي هُرَيْرَةَ وهو يَتَوَضَّأُ لِلصَّلاةِ، فَكانَ يَمُدُّ يَدَهُ حتَّى تَبْلُغَ إبْطَهُ فَقُلتُ له: يا أبا هُرَيْرَةَ ما هذا الوُضُوءُ؟ فقالَ: يا بَنِي فَرُّوخَ أنتُمْ هاهُنا؟ لو عَلِمْتُ أنَّكُمْ هاهُنا ما تَوَضَّأْتُ هذا الوُضُوءَ، سَمِعْتُ خَلِيلِي صَلَّى اللَّهُ عليه وسلَّمَ يقولُ: تَبْلُغُ الحِلْيَةُ مِنَ المُؤْمِنِ، حَيْثُ يَبْلُغُ الوَضُوءُ.
@@ -41,9 +41,9 @@ title: كتاب الحديث
 
   
 
-# كتاب صفات الله
+## كتاب صفات الله
 
-## إثبات صفة الرجل لله سبحانه
+### إثبات صفة الرجل لله سبحانه
 
   
 
@@ -58,12 +58,12 @@ title: كتاب الحديث
   
   
 
-# كتاب الصلاة
+## كتاب الصلاة
 
 ---
   
 
-## باب صلاة الضحى 
+### باب صلاة الضحى 
 
  
 ---
@@ -112,7 +112,7 @@ title: كتاب الحديث
 
 ----------
 
-## باب صلاة العصر
+### باب صلاة العصر
 
   
 
@@ -213,7 +213,7 @@ title: كتاب الحديث
   
   
 
-## باب نوافل الصلاة
+### باب نوافل الصلاة
 
   
 
@@ -2675,8 +2675,8 @@ title: كتاب الحديث
 
 /
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTE4NjU4OTcsLTExNjY4NjIxNDMsMT
-IzNjM2OTgzMiwtMTA0NTM0NjM0NiwtMTEyOTEyMTAwNSwtMTA0
-NTM0NjM0NiwtNDE5MDA1OTgsLTIyMDA1ODU0OCwtMTk4MzIwOD
-g4MSwtNTA5OTc2MTc3XX0=
+eyJoaXN0b3J5IjpbLTE0NjU2OTMxNTMsLTExMTE4NjU4OTcsLT
+ExNjY4NjIxNDMsMTIzNjM2OTgzMiwtMTA0NTM0NjM0NiwtMTEy
+OTEyMTAwNSwtMTA0NTM0NjM0NiwtNDE5MDA1OTgsLTIyMDA1OD
+U0OCwtMTk4MzIwODg4MSwtNTA5OTc2MTc3XX0=
 -->
